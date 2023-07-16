@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url("../img/samll.png");
+    background-color: #49393f;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+.logo{
+    width: 3.5%;
+}
+h2{
+    font-family: 'Cinzel', serif;
+}
+#nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #724f60;
+    color: wheat;
+}
+.for-img{
+    width: 25%;
+}
+.section-1{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    gap: 23%;
+}
+.section-1 p{
+    /* font-size: 26px; */
+    width: auto;
+    text-align: center;
+    margin: 3%;
+}
+.spa{
+    font-weight: bolder;
+    color: #fafeff;
+}
+span{
+    font-weight: bolder;
+    font-size: 20px;
+}
+#element{
+    color: #ff237b;
+    font-weight: 700;
+}
+#second-section{
+       /* background-color:red; */
+       background-image: url("../img/blob-4.svg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       padding-top: 80px;
+       padding-bottom: 80px;
+       padding-left: 10px;
+       padding-right: 10px;
+       background-position: center;
+}
+.eq-para{
+    text-align: center;
+    color: white;
+    margin: 0px 47%;
+    width: 42%;
+    font-weight: bolder;
+}
+.sec-para{
+    font-size: 19px;
+    margin-left: 2%;
+    margin-top: 0px;
+    width: 25%;
+}
+
+h3{
+    margin: 0 5%;
+    color: white;
+}
+.for-img-3{
+    width: 25%;
+    margin-left: 37%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.para{
+    inline-size: 23rem;
+    hyphens: auto;
+    font-size: 18px;
+    margin: 0 24%;
+    width: 50%;
+    background-color: #c89f9f;
+    padding: 22px;
+    border-radius: 9px;
+    font-family: 'Lobster', cursive;
+}
+/* -----------------------------------------contact area------------------------------------------ */
+#third-section{
+    background-color: rgb(154 134 174 / 89%);
+    background-image: url("../img/stacked-peaks.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+.contact-form{
+    display: grid;
+}
+.contact-right{
+    margin: 4% 23%;
+    width: 55%;
+}
+.contact-right form{
+    display: grid;
+    grid-gap: 22px;
+}
+.contact-right form input ,textarea{
+    padding: 16px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 15px;
+}
+.submit-btn{
+    width: 22%;
+    padding: 4px;
+    border-radius: 5px;
+    border: 0;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background-color: #c32323;
+}
+.contact-left{
+    /* width: 30%; */
+    margin: 85px 0;
+}
+.contact-h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 11px 0;
+}
+.social-icons{
+    margin: 15px 30px;
+    text-align: center;
+}
+.social-icons a,i{
+    font-size: 35px;
+    padding: 4px;
+    color: black;
+    transition: background 0.5s, transform 0.5s;
+}
+.social-icons a .fa-brands:hover{
+    color: #424254;
+    transform: translateX(-5px);
+}
+nav .fa-solid{
+    display: none;
+}
+.copyright{
+    background-color: #bc8181;
+    padding: 8px;
+    position: relative;
+    top: 2rem;
+    text-align: center;
+}
+/* .contact-p{
+    text-align: center;
+} */
+/* --------------------------------media screen------------------------------------------ */
+/* 767 */
+@media (max-width: 1030px){
+    .sec-para{
+        font-size: 13px;
+    }
+    span{
+        font-size: 12px;
+    }
+    .for-img-3{
+        width: 32%;
+    }
+}
+@media (max-width: 630px){
+    span{
+        font-size: 12px;
+    }
+    .sec-para{
+        margin: 0;
+        font-size: 12px;
+    }
+    h3{
+        font-size: 17px;
+    }
+    .for-img-3{
+        width: 35%;
+    }
+}
+@media (max-width: 624px){
+    #second-section{
+        background-position-x:35% ;
+    }
+    .sec-para{
+        font-size: 10px;
+    }
+    span{
+        font-size: 11px;
+    }
+    .for-img-3{
+        width: 35%;
+    }
+}
+
+/* @media (max-width: 647px){
+    header{
+            padding-left: 0;
+     padding-right: 0;
+    }
+} */
+
+
+
+/* @media (max-width: 650px) {
+  .para{
+    width: auto;
+    margin: 6% 2%;
+  }
+  .for-img {
+    width: 35%;
+  }
+  .section-1 p{
+    font-size: 15px;
+    padding: 20%;
+  }
+  h3{
+    padding: 5%;
+  }
+  .for-img-3{
+    width: 45%;
+    margin: 4% 28%;
+  }
+} */
